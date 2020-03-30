@@ -1,0 +1,80 @@
+h3{
+	text-align: center;
+}
+
+@media  screen  and (min-width: 992px) {
+
+	.choice{
+	display: inline-block;
+	width: 30%;
+	border:1px solid #ccc;
+	margin: 0 auto;
+
+}
+	h4{
+	text-align: center;
+	color: red;
+	margin:0 ;
+	float: right;
+	border: 1px solid #ccc;
+	width: 90px;
+	background: green;
+}
+   .content{
+   	clear: right;
+   }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.choice{
+		display: inline-block;
+		border: 1px solid #ccc;
+		margin-top: 6%;
+	}
+
+	.bee , .snake{
+		width: 45%;
+
+	}
+	.whale{
+		display: block;
+		width: 91%;
+	}
+
+	h4{
+	text-align: center;
+	color: red;
+	margin:0 ;
+	float: right;
+	border: 1px solid #ccc;
+	width: 90px;
+	background: green;
+}
+   .content{
+   	clear: right;
+   }
+
+}
+
+@media screen and (max-width: 767px){
+	.choice{
+		border: 1px solid #ccc;
+
+	}
+
+	h4{
+	text-align: center;
+	color: red;
+	margin:0 ;
+	float: right;
+	border: 1px solid #ccc;
+	width: 90px;
+	background: green;
+}
+   .content{
+   	clear: right;
+   }
+
+}
